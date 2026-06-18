@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(120deg, #0b3d2e, #0a3c2e);
+    color: white;
+  }
+  
+  /* HEADER */
+  .header {
+    text-align: center;
+    padding: 30px;
+    background: rgba(0,0,0,0.3);
+  }
+  
+  .header h1 {
+    font-size: 40px;
+    color: #7CFF6B;
+  }
+  
+  nav {
+    margin-top: 15px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #1db954;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #0d7a3a;
+  }
+  
+  /* SEÇÕES */
+  .secao {
+    display: none;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .secao.ativo {
+    display: block;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #7CFF6B;
+  }
+  
+  /* CARDS */
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 12px;
+    width: 250px;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* BANNER */
+  .banner {
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 12px;
+  }
+  
+  /* FORM */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: rgba(0,0,0,0.3);
+  }
